@@ -7,7 +7,8 @@ from meetings.models import Meeting
 
 
 def welcome(request):
-    return render(request, "website/welcome.html", {"meetings_count": Meeting.objects.count()})
+    return render(request, "website/welcome.html",
+                  {"meetings": Meeting.objects.all()})
 
 
 def about(request):

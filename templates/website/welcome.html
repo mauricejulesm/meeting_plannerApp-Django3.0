@@ -9,8 +9,15 @@
 <p>
     This is the demo application for the course <em>Django: Getting Started</em> on <a href="https://wwww.pluralsight.com">Pluralsight</a>.
 </p>
-<p>
-    There are {{ meetings_count }} meetings currently in the database.
-</p>
+
+<h2>Meetings</h2>
+<ul>
+    {% for meeting in meetings %}
+        <li>
+        <a href="/meetings/{{ meeting.id }}"> {{ meeting.title }}</a>
+        </li>
+    {% endfor %}
+
+</ul>
 </body>
 </html>
