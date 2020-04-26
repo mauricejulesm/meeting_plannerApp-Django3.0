@@ -17,7 +17,7 @@
         <a href="{% url 'details' meeting.id %}"> {{ meeting.title }}</a>
         </li>
     {% endfor %}
-
 </ul>
+<p>View available rooms <a href="{% url 'rooms' %}">here</a></p>
 </body>
 </html>
