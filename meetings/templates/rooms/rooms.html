@@ -1,24 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Meetings</title>
-</head>
-<body>
-<h1>Current Rooms</h1>
-<p>
-    These are the current rooms in our database {{ meeting.start_time }} in <strong> {{ meeting.room.room_name }}</strong> room.
-</p>
 
-<ul>
-    {% for room in rooms %}
-        <li>
-            {{ room }}
-        </li>
-    {% endfor %}
+{% extends 'base.html' %}
+{% block title %}Rooms Page{% endblock %}
+{% block content %}
 
-</ul>
+    <h1>Current Rooms</h1>
+    <p>
+        These are the current rooms in our database {{ meeting.start_time }} in <strong> {{ meeting.room.room_name }}</strong> room.
+    </p>
 
-<p> Click here to go back <strong><a href="{% url 'home' %}">Home</a></strong></p>
-</body>
-</html>
+    <ul>
+        {% for room in rooms %}
+            <li>
+                {{ room }}
+            </li>
+        {% endfor %}
+
+    </ul>
+
+    <p> Click here to go back <strong><a href="{% url 'home' %}">Home</a></strong></p>
+
+{% endblock %}
