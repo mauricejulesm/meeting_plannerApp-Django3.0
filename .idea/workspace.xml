@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="635f8ddf-9c74-4b85-a60c-d08bca4fb84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meetings/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meeting_planner/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meeting_planner/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/meetings/details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rooms/rooms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/website/welcome.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,15 +50,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/website/welcome.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meetings/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -68,11 +61,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meeting_planner/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#639#671#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/meetings/templates/rooms/rooms.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -97,24 +102,6 @@
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/rooms/rooms.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/meetings/details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -175,28 +162,13 @@
             <path>
               <item name="meeting_planner" type="b2602c69:ProjectViewProjectNode" />
               <item name="meeting_planner" type="462c0819:PsiDirectoryNode" />
-              <item name="meeting_planner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meeting_planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meeting_planner" type="462c0819:PsiDirectoryNode" />
-              <item name="meetings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meeting_planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meeting_planner" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meeting_planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meeting_planner" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="rooms" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meeting_planner" type="b2602c69:ProjectViewProjectNode" />
               <item name="meeting_planner" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,9 +190,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/meetings" />
+      <recent name="$PROJECT_DIR$/website" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/meetings" />
       <recent name="$PROJECT_DIR$/website/templates" />
       <recent name="$PROJECT_DIR$/website" />
     </key>
@@ -278,7 +252,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20271000" />
+    <option name="totallyTimeSpent" value="21705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -290,6 +264,7 @@
       <window_info anchor="bottom" id="Database Changes" weight="0.329927" />
       <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Python Console" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Terminal" weight="0.32846716" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.4540146" />
@@ -335,6 +310,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -463,8 +441,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meeting_planner/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#639#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/rooms/rooms.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetings/templates/rooms/rooms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>

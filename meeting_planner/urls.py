@@ -17,10 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 from website.views import welcome, about
-from meetings.views import details, rooms_list as rooms
 
 urlpatterns = [
-    path('admin', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('', welcome, name="home"),
     path('about', about),
     path('meetings/', include("meetings.urls")),
